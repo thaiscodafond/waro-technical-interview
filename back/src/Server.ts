@@ -2,7 +2,6 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
-import "express-async-errors";
 import helmet from "helmet";
 import morgan from "morgan";
 import { router } from "./routes";
