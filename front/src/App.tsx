@@ -6,9 +6,12 @@ const App: React.FC = () => {
     <div className="App">
       <header>
         <img
-          src="http://waro.io/api/images/papillon-waro-reduit.png"
+          src="waro-logo.png"
           className="App-logo"
           alt="logo"
+          style={{
+            height: 50,
+          }}
         />
         <p>Waro</p>
       </header>
