@@ -1,4 +1,4 @@
-import { Db } from "db/types";
+import { Db } from "../db/types";
 
 /**
  *  Get the recycled rate of a scenario.
