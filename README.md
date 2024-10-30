@@ -1,21 +1,12 @@
-# Getting Started with Create React App
+# Run the app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- `pnpm dev`
 
-## Available Scripts
+# Folder structure
 
-In the project directory, you can run:
+- `back` : contains types and class that simulates the database and it schema and some utils functions
+- `front` : contains a Hello Word react component
 
-### `npm start`
+# Exercice
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- https://www.notion.so/waro/Exercice-12f3022a32818088965fe44675088adf

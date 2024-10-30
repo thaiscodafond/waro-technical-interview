@@ -1,3 +1,6 @@
+/**
+ * This simulates de database schema
+ */
 export namespace Db {
   /**
    * Product reference, like a T-shirt, a jean, etc. sold by a brand.
