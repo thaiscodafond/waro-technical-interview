@@ -12,6 +12,14 @@ class Database {
     return this.references;
   }
 
+  async getCategories() {
+    return generator.categories;
+  }
+
+  async getTags() {
+    return generator.tags;
+  }
+
   private references = generator.references(100);
 }
 
