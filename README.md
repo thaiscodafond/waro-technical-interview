@@ -1,5 +1,6 @@
 # Run the app
 
+- `pnpm install`
 - `pnpm dev`
 
 # Folder structure
