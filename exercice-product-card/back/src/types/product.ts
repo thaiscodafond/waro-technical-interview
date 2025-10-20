@@ -2,6 +2,7 @@ import { Status } from "./status";
 
 export type Product = {
   id: string;
+  companyId: string;
   name: string;
   category: string;
   imgSrc: string;

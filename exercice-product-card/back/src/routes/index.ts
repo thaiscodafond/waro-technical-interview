@@ -16,6 +16,7 @@ router.get("/product/:id", (req, res) => {
   const { id } = req.params;
   const record: Product = {
     id,
+    companyId: "A",
     name: "T-shirt regular col rond 100% coton",
     category: "T Shirt",
     imgSrc:
@@ -44,6 +45,7 @@ router.get("/products", (_req, res) => {
   const records: Product[] = [
     {
       id: uuid(),
+      companyId: "A",
       name: "T-shirt regular col rond 100% coton",
       category: "T Shirt",
       imgSrc:
@@ -64,6 +66,7 @@ router.get("/products", (_req, res) => {
     },
     {
       id: uuid(),
+      companyId: "A",
       name: "Jean skinny 5 poches",
       category: "Jean",
       imgSrc:
