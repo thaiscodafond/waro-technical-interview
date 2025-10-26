@@ -41,8 +41,20 @@ Photo manquante avoir un fall back
 
 Code couleur bleu vert.
 
+## Le composant (Design, développement)
+
+### Figma
+
+[Figma](https://www.figma.com/design/qaDJGENKb1X1TaskDZcpdl/Waro-interview?node-id=0-1&m=dev&t=ipRL7Wx4qzrcoFeG-1)
+
+### Choix techniques
+
+à suivre...
+
 ## Sources
 
 [UC Berkeley](https://dap.berkeley.edu/web-a11y-basics/accessible-card-ui-component-patterns)
 [WCAG exchange on card](https://ux.stackexchange.com/questions/118719/wcag-aa-compliance-and-card-patterns)
 [WCAG](https://design-system.w3.org/components/cards.html)
+[Sussex academy color palettes](https://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000)
+[Waro](https://www.waro.io)
