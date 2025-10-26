@@ -2,7 +2,7 @@
 import { Router } from "express";
 import { Product } from "../types/product";
 import { Status } from "../types/status";
-import { v7 as uuid } from "uuid";
+const { v4: uuid } = require('uuid');
 
 const router = Router();
 
