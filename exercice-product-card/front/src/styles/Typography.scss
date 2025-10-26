@@ -1,0 +1,49 @@
+@import "../index.scss";
+
+.typography {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  line-break: auto;
+  word-break: normal;
+
+  &.large {
+    font-size: 40px;
+  }
+  &.title {
+    font-size: 14px;
+  }
+  &.body {
+    font-size: 10px;
+  }
+
+  &.medium {
+    font-style: normal;
+  }
+  &.bold {
+    font-weight: 600;
+  }
+
+  &.blue {
+    color: var(--color-blue);
+  }
+
+  &.black {
+    color: var(--color-black);
+  }
+
+  &.grey {
+    color: var(--color-grey);
+  }
+
+  &.green {
+    color: var(--color-green);
+  }
+
+  &.turquoise {
+    color: var(--color-turquoise);
+  }
+
+  &.orange {
+    color: var(--color-orange);
+  }
+}

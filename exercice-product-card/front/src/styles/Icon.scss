@@ -1,0 +1,11 @@
+.icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.icon--fallback {
+  background: #ccc;
+  border-radius: 3px;
+}

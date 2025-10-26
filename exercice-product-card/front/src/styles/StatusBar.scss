@@ -1,0 +1,21 @@
+@import "../index.scss";
+
+.status-bar {
+  height: 55px;
+  border-radius: 0 0 16px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.not-started {
+    background-color: #e6e6e6;
+  }
+
+  &.in-progress {
+    background-color: #fed9b3;
+  }
+
+  &.completed {
+    background-color: #b3e9bb;
+  }
+}
