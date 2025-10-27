@@ -1,0 +1,19 @@
+@import "../index.scss";
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  .typography {
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
+  }
+
+  &:hover .typography,
+  &:focus-visible .typography {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}

@@ -16,7 +16,6 @@ const App = () => {
     }
     fetchData();
   }, []);
-  console.log(cards);
 
   return (
     <div
