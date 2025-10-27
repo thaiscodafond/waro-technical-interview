@@ -49,7 +49,7 @@ Code couleur bleu vert.
 
 ### Choix techniques
 
-à suivre...
+Routing, aria, hover, .. components assez simples et réutilisables.
 
 ## Sources
 
