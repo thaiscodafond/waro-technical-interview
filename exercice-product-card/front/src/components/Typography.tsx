@@ -1,7 +1,7 @@
-import "exercice-product-card/front/src/styles/Typography.css";
+import "../styles/Typography.scss";
 
-type TypographyProps = {
-  text: string;
+export type TypographyProps = {
+  children: string;
   level?: 1 | 2 | 3;
   type?: "medium" | "bold";
   color?: "blue" | "black" | "grey" | "green" | "orange" | "turquoise";
@@ -11,7 +11,7 @@ const Typography = ({
   level = 3,
   type = "medium",
   color = "grey",
-  text,
+  children,
 }: TypographyProps) => {
   const classNames = ["typography"];
   switch (level) {
@@ -27,7 +27,7 @@ const Typography = ({
   classNames.push(type);
   classNames.push(color);
 
-  return <span className={classNames.join(" ")}>{text}</span>;
+  return <span className={classNames.join(" ")}>{children}</span>;
 };
 
 export { Typography };
