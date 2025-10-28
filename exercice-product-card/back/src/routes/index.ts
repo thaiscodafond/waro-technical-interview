@@ -62,7 +62,7 @@ router.get("/products", (_req, res) => {
       ],
       status: Status.NotStarted,
       co2Impact: 7.5,
-      tags: ["Coton", "ETE25", "HOMME", "FEMME", "PATATE"],
+      tags: ["Coton", "ETE25"],
     },
     {
       id: uuid(),
